@@ -6,8 +6,6 @@ const LoginScreen = ({ navigation }) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Perform authentication logic here
-    // For simplicity, we'll assume successful login and navigate to WelcomeScreen
     navigation.navigate('Welcome', { username });
   };
 
